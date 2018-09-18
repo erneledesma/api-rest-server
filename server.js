@@ -3,7 +3,7 @@ const axios = require('axios'); // declarar axios
 const argv = require('yargs').options({
   direccion:{
     alias: 'd',
-    desc: 'Direccion de la ciudad para obtener el clima',
+    desc: 'Direccion de la ciudad para obtener el clima 3 para el cmabio',
     demand: true
   }
 }).argv;
